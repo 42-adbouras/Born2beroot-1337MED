@@ -357,11 +357,11 @@ Let’s not forget to tell our firewall to authorize the 4242 port connection! W
 	Before we can connect to the virtual machine from another computer via SSH, we have to make a little adjustment in VirtualBox. Indeed, the connection will be refused until we forward the host port to the VM port.\
 In VirtualBox, select the Born2beroot machine and go into configuration settings.
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/714092571655274496/1212377136321531945/Screen_Shot_2024-02-28_at_1.33.13_PM.png?ex=65f19d32&is=65df2832&hm=8737d65a1f71e8809b597414a0286ce8f0794812892677bc61d0b24fac0b569d&" style="width:600px">
+<img src="https://github.com/42-adbouras/images/blob/master/Born2beroot/Screen_Shot_2024-02-28_at_1.33.13_PM.png" style="width:600px">
 </p>
 	Then, go to network >> Adapter 1 >> Advanced >> Port Forwarding. Then we will redirect the host port 4242 to the guest port 4242 like this:
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/714092571655274496/1212378436837048351/Screen_Shot_2024-02-28_at_1.38.50_PM.png?ex=65f19e68&is=65df2968&hm=0995f9b64708c694ca910901a6ce79bcf261e751fb39e3c9c70b79e312bf3a45&" style="width:600px">
+<img src="https://github.com/42-adbouras/images/blob/master/Born2beroot/Screen_Shot_2024-02-28_at_1.38.50_PM.png" style="width:600px">
 </p>
 	Finally, on your virtual server, we are going to restart the SSH server once again and check its status:
 
@@ -655,7 +655,7 @@ Settings >> Network >> Adapter 1 >> Advanced >> Port Forwarding
 Add a rule for Host Port: 80, Guest port: 80.
 
 <p align="center">
-<img src="https://media.discordapp.net/attachments/714092571655274496/1216454156156403882/Screen_Shot_2024-03-10_at_6.34.09_PM.png?ex=66007237&is=65edfd37&hm=cafb6c8202f960142a61e3963d5c97be454b767ffaab5aaa384b6f7c0a020b81&=&format=webp&quality=lossless&width=2774&height=1736" style="width:600px">
+<img src="https://github.com/42-adbouras/images/blob/master/Born2beroot/Screen_Shot_2024-03-10_at_6.34.09_PM.png" style="width:600px">
 </p>
 
 Finally, we can do a little test to check that lighttpd is working properly. In a browser on the host machine, we can connect to the following address and port: `http://127.0.0.1` (or `http://localhost`). We should see the lighttpd placeholder page, like this:
@@ -696,7 +696,7 @@ Now in our host browser, let’s go see this file at the following address: http
    Now, we should see a page like this when we go to http://127.0.0.1/info.php:
 
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/714092571655274496/1214513594863976498/Screen_Shot_2024-03-05_at_11.02.55_AM.png?ex=65f962ed&is=65e6eded&hm=8f0e4900727c3b7c5f572c78db00220f957ecf234efb6dd8df63f4b0724fe5b1&" style="width:600px">
+<img src="https://github.com/42-adbouras/images/blob/master/Born2beroot/Screen_Shot_2024-03-05_at_11.02.55_AM.png" style="width:600px">
 </p>
 
    * Installing MariaDB\
