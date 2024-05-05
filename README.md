@@ -357,11 +357,11 @@ Let’s not forget to tell our firewall to authorize the 4242 port connection! W
 	Before we can connect to the virtual machine from another computer via SSH, we have to make a little adjustment in VirtualBox. Indeed, the connection will be refused until we forward the host port to the VM port.\
 In VirtualBox, select the Born2beroot machine and go into configuration settings.
 <p align="center">
-<img src="https://github.com/42-adbouras/images/blob/master/Born2beroot/Screen_Shot_2024-02-28_at_1.33.13_PM.png" style="width:600px">
+<img src="https://res.cloudinary.com/dk2hh5aua/image/upload/fl_preserve_transparency/v1714927568/Born2beroot/Screen_Shot_2024-02-28_at_1.33.13_PM_gfcuzz.jpg?_s=public-apps" style="width:600px">
 </p>
 	Then, go to network >> Adapter 1 >> Advanced >> Port Forwarding. Then we will redirect the host port 4242 to the guest port 4242 like this:
 <p align="center">
-<img src="https://github.com/42-adbouras/images/blob/master/Born2beroot/Screen_Shot_2024-02-28_at_1.38.50_PM.png" style="width:600px">
+<img src="https://res.cloudinary.com/dk2hh5aua/image/upload/fl_preserve_transparency/v1714927568/Born2beroot/Screen_Shot_2024-02-28_at_1.38.50_PM_k8vnnx.jpg?_s=public-apps" style="width:600px">
 </p>
 	Finally, on your virtual server, we are going to restart the SSH server once again and check its status:
 
@@ -655,7 +655,7 @@ Settings >> Network >> Adapter 1 >> Advanced >> Port Forwarding
 Add a rule for Host Port: 80, Guest port: 80.
 
 <p align="center">
-<img src="https://github.com/42-adbouras/images/blob/master/Born2beroot/Screen_Shot_2024-03-10_at_6.34.09_PM.png" style="width:600px">
+<img src="https://res.cloudinary.com/dk2hh5aua/image/upload/v1714927568/Born2beroot/Screen_Shot_2024-03-10_at_6.34.09_PM_scmi1s.png" style="width:600px">
 </p>
 
 Finally, we can do a little test to check that lighttpd is working properly. In a browser on the host machine, we can connect to the following address and port: `http://127.0.0.1` (or `http://localhost`). We should see the lighttpd placeholder page, like this:
@@ -696,7 +696,7 @@ Now in our host browser, let’s go see this file at the following address: http
    Now, we should see a page like this when we go to http://127.0.0.1/info.php:
 
 <p align="center">
-<img src="https://github.com/42-adbouras/images/blob/master/Born2beroot/Screen_Shot_2024-03-05_at_11.02.55_AM.png" style="width:600px">
+<img src="https://res.cloudinary.com/dk2hh5aua/image/upload/fl_preserve_transparency/v1714927569/Born2beroot/Screen_Shot_2024-03-05_at_11.02.55_AM_mfbyya.jpg?_s=public-apps" style="width:600px">
 </p>
 
    * Installing MariaDB\
